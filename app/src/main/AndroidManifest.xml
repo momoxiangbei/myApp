@@ -16,6 +16,8 @@
         </activity>
 
         <activity android:name=".recyclerView.MyRecyclerViewActivity"></activity>
+
+        <activity android:name=".viewpager.ViewPagerActivity"/>
     </application>
 
 </manifest>

@@ -23,6 +23,6 @@ public class MyRecyclerViewActivity extends Activity{
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
         recyclerView.setAdapter(new MyAdapter(this));
 //        recyclerView.addItemDecoration();
-        
+
     }
 }

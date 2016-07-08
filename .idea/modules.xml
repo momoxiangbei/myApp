@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MomoFly.iml" filepath="$PROJECT_DIR$/MomoFly.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RippleEffect/RippleEffect.iml" filepath="$PROJECT_DIR$/RippleEffect/RippleEffect.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/okhttpUtil/okhttpUtil.iml" filepath="$PROJECT_DIR$/okhttpUtil/okhttpUtil.iml" />
     </modules>

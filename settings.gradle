@@ -1,1 +1,1 @@
-include ':app', ':okhttpUtil'
+include ':app', ':okhttpUtil', ':RippleEffect'

@@ -2,15 +2,37 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#e9e9e9">
 
-    <TextView
-        android:id="@+id/recyclerView"
+    <com.andexert.library.RippleView
+        android:id="@+id/recyclerView_r"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
-        android:layout_marginBottom="2dp"
-        android:background="#eee"
-        android:text="recyclerView"
-        android:onClick="recyclerView"/>
+        rv_centered="true"
+        app:rv_color="#898989">
+        <TextView
+            android:id="@+id/recyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#fff"
+            android:text="recyclerView" />
+    </com.andexert.library.RippleView>
+
+    <com.andexert.library.RippleView
+        android:id="@+id/viewpager_r"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        rv_centered="true"
+        app:rv_color="#898989">
+        <TextView
+            android:id="@+id/viewpager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:background="#fff"
+            android:text="viewpager" />
+    </com.andexert.library.RippleView>
 </LinearLayout>
