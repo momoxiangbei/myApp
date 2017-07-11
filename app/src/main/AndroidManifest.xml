@@ -2,11 +2,14 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.momo.fly">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
+        android:name=".MyApplication"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
             <intent-filter>
@@ -17,7 +20,12 @@
 
         <activity android:name=".recyclerView.MyRecyclerViewActivity"></activity>
 
-        <activity android:name=".viewpager.ViewPagerActivity"/>
+        <activity android:name=".viewpager.ViewPagerActivity" />
+
+        <meta-data
+            android:name="io.fabric.ApiKey"
+            android:value="cd0e836932026f8c55cfb40b117add9e85e59832" />
+
     </application>
 
 </manifest>
