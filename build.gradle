@@ -18,3 +18,11 @@ allprojects {
 task clean(type: Delete) {
     delete rootProject.buildDir
 }
+
+// 每个module都使用这里统一的版本
+project.ext {
+    compileSdkVersion = 25
+    buildToolsVersion = '25.0.0'
+    minSdkVersion = 14   //系统版本低于4.0，则不能运行此app
+    targetSdkVersion = 25;
+}
