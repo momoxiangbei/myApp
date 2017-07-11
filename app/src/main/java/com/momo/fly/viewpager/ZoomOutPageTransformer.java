@@ -3,10 +3,7 @@ package com.momo.fly.viewpager;
 import android.annotation.TargetApi;
 import android.os.Build;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.View;
-
-import com.momo.okhttputil.utils.L;
 
 /**
  * Created by Administrator on 2016/7/8.

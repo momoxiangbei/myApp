@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.widget.TextView;
 
 import com.momo.fly.R;
-import com.momo.okhttputil.utils.L;
 
 /**
  * Created by Administrator on 2016/7/6.
