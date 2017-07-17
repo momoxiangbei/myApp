@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffffff">
+    tools:layout_editor_absoluteY="0dp"
+    tools:layout_editor_absoluteX="0dp">
+
 
     <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="Button"
+        tools:layout_editor_absoluteY="248dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="12345678"/>
+        android:id="@+id/guideline2"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="248dp"
+        tools:layout_editor_absoluteY="248dp"
+        tools:layout_editor_absoluteX="0dp" />
 
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_marginStart="97dp"
+        tools:layout_editor_absoluteY="405dp"
+        tools:layout_editor_absoluteX="97dp" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        android:layout_marginStart="30dp"
+        tools:layout_editor_absoluteY="405dp"
+        tools:layout_editor_absoluteX="193dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="154dp"
+        android:layout_height="16dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteY="99dp"
+        tools:layout_editor_absoluteX="103dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="162dp"
+        android:layout_height="21dp"
+        android:text="TextView"
+        tools:layout_editor_absoluteY="154dp"
+        tools:layout_editor_absoluteX="99dp" />
+
+</android.support.constraint.ConstraintLayout>
