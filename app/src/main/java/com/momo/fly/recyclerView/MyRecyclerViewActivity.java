@@ -8,9 +8,9 @@ import android.support.v7.widget.RecyclerView;
 import com.momo.fly.R;
 
 /**
- * Created by Administrator on 2016/7/6.
+ * Created by momoxiangbei on 2016/7/6.
  */
-public class MyRecyclerViewActivity extends Activity{
+public class MyRecyclerViewActivity extends Activity {
     private RecyclerView recyclerView;
     private MyAdapter adapter;
 
